@@ -1,0 +1,94 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ body {
+   background-color: rgb(33, 83, 133);
+ }
+ .header {
+   padding: 25px;
+   display: flex;
+   justify-content: space-between;
+ }
+.title {
+   font-size: 30px;
+   color: white;
+}
+.add-btn {
+   padding: 15px;
+   background-color: white;
+   border-radius: 20px;
+   text-decoration: none;
+   text-transform: uppercase;
+   color:rgb(33, 83, 133)
+}
+.add-section {
+   margin-top: 10px;
+}
+.notes {
+   height: 80vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.no-notes {
+   color: white;
+   font-size: 50px;
+   font-weight: bold;
+}
+.form-back {
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   position: fixed;
+   background-color: rgba(0, 0, 0, 0.35)
+}
+.form {
+   background-color: white;
+   height: 55%;
+   width: 35%;
+   margin: auto;
+   margin-top: 60px;
+   border-radius: 30px;
+}
+.form-header {
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+.form-header-text {
+   font-size: 30px;
+}
+.form-close-btn {
+   font-size: 30px;
+   text-decoration: none;
+   color: black;
+}
+label {
+   font-size: 20px;
+}
+.form-group {
+   padding: 20px;
+} 
+.form-control {
+   width: 100%;
+   padding: 20px;
+}
+.form-save-btn {
+   font-size: 20px;
+   padding: 20px;
+   background-color: rgb(33, 83, 133);
+   color: white;
+   cursor: pointer;
+   border: none;
+   border-radius: 20px;
+}
+.form-save {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
