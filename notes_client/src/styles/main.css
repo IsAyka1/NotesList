@@ -38,13 +38,22 @@
    font-size: 50px;
    font-weight: bold;
 }
-.form-back {
+.form-visible {
    height: 100%;
    width: 100%;
    top: 0;
    left: 0;
    position: fixed;
-   background-color: rgba(0, 0, 0, 0.35)
+   background-color: rgba(0, 0, 0, 0.35);
+}
+.form-unvisible {
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   position: fixed;
+   background-color: rgba(0, 0, 0, 0.35);
+   display: none;
 }
 .form {
    background-color: white;
@@ -91,4 +100,43 @@ label {
    display: flex;
    justify-content: center;
    align-items: center;
+}
+.notes-list {
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.note {
+   background-color: white;
+   border: none;
+   border-radius: 20px;
+   padding: 20px;
+   transition: all 1.2s;
+   min-width: 20%;
+   min-height: 25%;
+   margin: 15px;
+   overflow: hidden;
+}
+.note:hover {
+   transform: scale(1.1);
+}
+.note-header {
+   display: flex;
+   justify-content: space-between;
+}
+.note-title {
+   font-size: 20px;
+   font-weight: bold;
+   color:rgb(33, 83, 133)
+}
+.note-close-btn {
+   padding: 10px;
+   font-size: 20px;
+   text-decoration: none;
+   color: black;
+}
+@media (max-width: 900px){
+   .form{
+      width: 80%;
+   }
 }
