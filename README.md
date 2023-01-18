@@ -29,3 +29,6 @@ There were used
 * Django/Django-Rest-Framework to create an API.
 * ReactJs to create a view
 
+### Preview
+
+![Screenshot from 2023-01-18 13-32-56](https://user-images.githubusercontent.com/56070643/213149267-f867ae09-40e5-4e05-b28b-45a0dd7b6ee7.png)
